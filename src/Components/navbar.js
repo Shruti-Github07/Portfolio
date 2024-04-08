@@ -5,18 +5,18 @@ import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
-const pages = ['About', 'Education', 'Projects', 'Experience', 'Contact', 'Feedback'];
+const pages = ['About', 'Education', 'Skills', 'Projects', 'Experience', 'Contact', 'Feedback'];
 
 function ResponsiveAppBar({ scrollToSection }) {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
+    // const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
+    // const handleOpenNavMenu = (event) => {
+    //     setAnchorElNav(event.currentTarget);
+    // };
 
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
+    // const handleCloseNavMenu = () => {
+    //     setAnchorElNav(null);
+    // };
     return (
         <AppBar position="static" color="transparent" style={{ boxShadow: 'none' }}>
             <Container maxWidth="xl">

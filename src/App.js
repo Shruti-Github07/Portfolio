@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ResponsiveAppBar from './Components/navbar';
 import ContactForm from './Components/contact';
+import ProjectSection from './Components/project';
 
 function App() {
   const scrollToSection = (contact) => {
@@ -14,6 +15,7 @@ function App() {
     <>
       <div className="App">
         < ResponsiveAppBar scrollToSection={scrollToSection} />
+        <div><ProjectSection /></div>
         <div id="contact"><ContactForm /></div>
         
       </div>

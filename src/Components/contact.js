@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import '../Styles/ContactForm.css'; // Import CSS file
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import '../Styles/ContactForm.css';
 
 function ContactForm() {
     const [formData, setFormData] = useState({
@@ -27,7 +26,6 @@ function ContactForm() {
     return (
         <div className='contact-body'>
             <div className='myContact'>
-                {/* <h3> Contact me here:</h3> */}
                 <a href="https://www.linkedin.com/in/shrutiraj016" target="_blank">
                     <img src={require('../Images/linkedin.png')} alt='LinkedIn' className='contactlogos' />
                 </a>
